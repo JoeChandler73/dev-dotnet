@@ -1,4 +1,4 @@
-﻿namespace parenthesis.tests;
+﻿namespace ValidParenthesis.Tests;
 
 public class ParenthesisTests
 {

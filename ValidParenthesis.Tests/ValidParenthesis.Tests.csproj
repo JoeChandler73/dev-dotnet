@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../parenthesis/parenthesis.csproj" />
+    <ProjectReference Include="../ValidParenthesis/ValidParenthesis.csproj" />
   </ItemGroup>
 
   <ItemGroup>

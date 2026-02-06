@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Hello/Hello.csproj" />
+  <Project Path="ValidParenthesis.Tests/ValidParenthesis.Tests.csproj" />
+  <Project Path="ValidParenthesis/ValidParenthesis.csproj" />
+</Solution>

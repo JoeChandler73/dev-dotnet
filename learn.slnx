@@ -1,5 +1,0 @@
-<Solution>
-  <Project Path="hello/hello.csproj" />
-  <Project Path="parenthesis.tests/parenthesis.tests.csproj" />
-  <Project Path="parenthesis/parenthesis.csproj" />
-</Solution>

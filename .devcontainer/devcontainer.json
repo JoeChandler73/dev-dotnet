@@ -162,11 +162,11 @@
   "postStartCommand": "dotnet dev-certs https --trust",
   "mounts": [
     // Kubernetes config
-    {
+  /*   {
       "source": "${localEnv:HOME}${localEnv:USERPROFILE}/.kube",
       "target": "/home/vscode/.kube",
       "type": "bind"
-    },
+    }, */
     // Git config
     {
       "source": "${localEnv:HOME}${localEnv:USERPROFILE}/.gitconfig",
@@ -180,11 +180,11 @@
       "type": "bind"
     }
   ],
-  "containerEnv": {
+  /* "containerEnv": {
     "KUBECONFIG": "/home/vscode/.kube/config",
     "DOTNET_CLI_TELEMETRY_OPTOUT": "1",
     "DOTNET_SKIP_FIRST_TIME_EXPERIENCE": "1"
-  },
+  }, */
   "remoteUser": "vscode",
   "waitFor": "postCreateCommand"
 }

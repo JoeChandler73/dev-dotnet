@@ -1,4 +1,4 @@
-﻿namespace parenthesis;
+﻿namespace ValidParenthesis;
 
 public static class Parenthesis
 {
